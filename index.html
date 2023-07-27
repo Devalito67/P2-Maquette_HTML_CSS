@@ -28,24 +28,27 @@
             </div>
         </header>
         <main>
-            <div class="herbergement-formFinder">
-                <section class="herbergement-form">
-                    <div class="margin-35">
+            <div class="form-hebergementFinder">
+                <section class="form-hebergement">
+                    <div class="form-title">
                         <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h2>
                         <p>En plein centre-ville ou en pleine nature</p>
                     </div>
-                    <form action="">
-                        <div class="margin-35">
-                            <label for=""></label>
-                            <i class="fa-solid fa-location-dot fa-lg"></i><input type="search" name="q" id="">
-                            <button>Rechercher</button>
+                    <form action="/index.html" method="get">
+                        <div class="searchbar">
+                            <label for="search-field"></label>
+                            <button class="btn-position"><i class="fa-solid fa-location-dot"></i></button><input class="search-field" type="search" name="q" id="search-field" placeholder="Marseille, France"><button class="btn-search">Rechercher</button>
                         </div>
-                        <div class="margin-35">
+                        
+                        <div class="search-filter">
                             <label for="">Filtres</label>
                             <button class="btn-filter"><i class="fa-solid fa-money-bill-wave fa-lg icon-filter"></i>Économique</button>
                             <button class="btn-filter"><i class="fa-solid fa-person fa-lg icon-filter"></i>Familial</button>
                             <button class="btn-filter"><i class="fa-solid fa-heart fa-lg icon-filter"></i>Romantique</button>
                             <button class="btn-filter"><i class="fa-solid fa-fire fa-lg icon-filter"></i>Nos pépites</button>
+                        </div>
+                        <div class="search-info">
+                            <p><button><i class="fa-solid fa-info fa-xs"></i></button>Plus de 500 logements sont disponibles dans cette ville</p>
                         </div>
                     </form>
                 </section>
