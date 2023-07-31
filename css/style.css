@@ -235,6 +235,7 @@ body {
 
 .hebergements-cards img {
     height: 114px;
+    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -285,7 +286,7 @@ body {
 }
 
 .populaires-cards img {
-    width: 33%;
+    width:33%;
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
