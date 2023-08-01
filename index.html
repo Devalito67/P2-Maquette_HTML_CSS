@@ -39,19 +39,24 @@
                             <label for="search-field"></label>
                             <button class="btn-position"><i class="fa-solid fa-location-dot"></i></button><input
                                 class="search-field" type="search" name="q" id="search-field"
-                                placeholder="Marseille, France"><button class="btn-search">Rechercher</button>
+                                placeholder="Marseille, France"><button
+                                class="btn-search search-desktop">Rechercher</button><button
+                                class="btn-search search-mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </div>
-
                         <div class="search-filter">
-                            <label for="">Filtres</label>
-                            <button class="btn-filter"><i
-                                    class="fa-solid fa-money-bill-wave fa-lg icon-filter"></i>Économique</button>
-                            <button class="btn-filter"><i
-                                    class="fa-solid fa-person fa-lg icon-filter"></i>Familial</button>
-                            <button class="btn-filter"><i
-                                    class="fa-solid fa-heart fa-lg icon-filter"></i>Romantique</button>
-                            <button class="btn-filter"><i class="fa-solid fa-fire fa-lg icon-filter"></i>Nos
-                                pépites</button>
+                            <div>
+                                <label for="search-filter">Filtres</label>
+                            </div>
+                            <div class="btn-filter-container">
+                                <button class="btn-filter"><i
+                                        class="fa-solid fa-money-bill-wave fa-lg icon-filter"></i>Économique</button>
+                                <button class="btn-filter"><i
+                                        class="fa-solid fa-person fa-lg icon-filter"></i>Familial</button>
+                                <button class="btn-filter"><i
+                                        class="fa-solid fa-heart fa-lg icon-filter"></i>Romantique</button>
+                                <button class="btn-filter"><i class="fa-solid fa-fire fa-lg icon-filter"></i>Nos
+                                    pépites</button>
+                            </div>
                         </div>
                         <div class="search-info">
                             <p><button class="btn-info"><i class="fa-solid fa-info fa-xs"></i></button>Plus de 500
@@ -194,8 +199,9 @@
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
-                    <div class="populaires-cards"><a href="#">
-                            <article class="card">
+                    <div class="populaires-cards">
+                        <article class="card">
+                            <a href="#">
                                 <img src="./images/hebergements/emile-guillemot.jpg"
                                     alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
@@ -212,10 +218,10 @@
                                         <span class="sr-only">Note de 4 sur 5</span>
                                     </div>
                                 </div>
-                            </article>
-                        </a>
-                        <a href="#">
-                            <article class="card">
+                            </a>
+                        </article>
+                        <article class="card">
+                            <a href="#">
                                 <img src="./images/hebergements/aw-creative.jpg"
                                     alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
@@ -232,9 +238,10 @@
                                         <span class="sr-only">Note de 4 sur 5</span>
                                     </div>
                                 </div>
-                            </article>
-                        </a><a href="#">
-                            <article class="card">
+                            </a>
+                        </article>
+                        <article class="card">
+                            <a href="#">
                                 <img src="./images/hebergements/febrian-zakaria2.jpg"
                                     alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
@@ -251,8 +258,8 @@
                                         <span class="sr-only">Note de 4 sur 5</span>
                                     </div>
                                 </div>
-                            </article>
-                        </a>
+                            </a>
+                        </article>
                     </div>
                 </section>
             </div>
