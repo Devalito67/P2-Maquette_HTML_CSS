@@ -528,6 +528,7 @@ body {
 
     .btn-filter {
         flex-basis: calc( 50% - 10px);
+        flex-grow: 1;
     }
 
     /****** Hebergements et Populaires ***********/
