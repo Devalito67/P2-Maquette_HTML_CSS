@@ -532,15 +532,16 @@ body {
     }
 
     /****** Hebergements et Populaires ***********/
-    .hebergements-and-populaires section {
-        border-radius: 0;
-        padding: 30px 20px;
+    .hebergements-and-populaires {
+        row-gap: 15px;
     }
 
     /****** Populaires ***********/
     .populaires {
+        border-radius: 0;
         order: 1;
         margin-top: 0;
+        padding : 20px
     }
 
     .populaires-cards {
@@ -551,14 +552,21 @@ body {
 
     /****** Hebergements ***********/
     .hebergements {
+        border-radius: 0;
         order: 2;
         background-color: #FFF !important;
+        padding: 30px 20px;
     }
 
     .hebergements-cards {
         flex-direction: column;
         row-gap: 15px;
         margin-top: 15px;
+    }
+
+    .btn-more {
+        background-color: white;
+        text-align: left;
     }
 
     /****** Activites ***********/
