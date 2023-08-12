@@ -245,7 +245,6 @@ body {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
-    box-sizing: border-box;
 }
 
 /****** Hebergements ***********/
@@ -451,7 +450,12 @@ body {
     }
 
     .populaires-cards .card {
-        flex-basis: calc(33.33% - 20px);
+        flex:1;
+    }
+
+    .populaires-cards img {
+        min-height: 136px;
+        height: 100%;
     }
 
     /****** Activites ***********/
@@ -555,6 +559,10 @@ body {
         flex-direction: column;
         row-gap: 15px;
         margin-top: 15px;
+    }
+
+    .populaires-cards img{
+        height: 136px;
     }
 
     /****** Hebergements ***********/
