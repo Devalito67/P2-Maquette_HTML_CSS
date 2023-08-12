@@ -87,11 +87,16 @@ body {
 .navbar a {
     display: flex;
     padding-top: 16px;
+    border-top: 2px solid transparent;
 }
 
-.active {
-    color: var(--main-color);
+.navbar a:hover {
     border-top: 2px solid var(--main-color);
+}
+
+.navbar a:active {
+    color: var(--main-color);
+    
 }
 
 /****** Main ***********/
@@ -227,6 +232,7 @@ body {
     text-align: center;
     margin-right: 10px;
     background-color: white;
+    line-height: 24px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -465,7 +471,7 @@ body {
 
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     /****** Header ***********/
     .header-container {
@@ -484,9 +490,10 @@ body {
         padding-bottom: 15px;
         flex: 1;
         justify-content: center;
+        border-bottom: 2px solid #F2F2F2;
     }
 
-    .active {
+    .navbar a:hover {
         border-bottom: 2px solid var(--main-color);
         border-top: none;
     }
